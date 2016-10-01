@@ -66,10 +66,10 @@ combined_averages <- combined %>%
   summarise_each(funs(mean))
 
 #output the tables
-write.csv(combined, "TidyData.csv",row.names=FALSE)
-write.csv(combined_averages, "TidyAverages.csv",row.names=FALSE)
+write.table(combined, "TidyData.txt",row.names=FALSE)
+write.table(combined_averages, "TidyAverages.txt",row.names=FALSE)
 
 #Let the users know that it has all finished
 print("Finished processing, there are two output files created:")
-print("TidyData.csv with contains the tidy dataset, and")
-print("TidyAverages.csv with contains the e average of each variable for each activity and each subject")
+print("TidyData.txt with contains the tidy dataset, and")
+print("TidyAverages.txt with contains the e average of each variable for each activity and each subject")
