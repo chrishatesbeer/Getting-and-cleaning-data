@@ -7,6 +7,6 @@ There is a single script called run_analysis.R, which does the following <br>
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.<br>
 <br>
 
-The output is are two text files<>
+The output is are two text files<br>
 1. TidyData.txt with contains the tidy dataset<br>
 2. TidyAverages.txt with contains the e average of each variable for each activity and each subject
